@@ -15,5 +15,5 @@ jobs:
       with:
         python-version: ${{ matrix.py-version }}
     - name: Output Py Vesrion
-      run: py --version
+      run: python3 --version
         
